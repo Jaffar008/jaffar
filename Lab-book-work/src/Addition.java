@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Addition {
-
+//Well done mr.Jaffar.
 	public static void main(String[] args) {
 		Scanner i = new Scanner(System.in);
 		System.out.print("Enter First numbers:");
