@@ -1,3 +1,4 @@
+
 package lab_book1;
 
 public class PrintAsciiValue {
