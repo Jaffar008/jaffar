@@ -3,17 +3,16 @@ package lab_book1;
 import java.util.Scanner;
 
 public class FindAreaOfTriangle {
-	public static void main (String[] args)
-	{
-	Scanner scan = new Scanner(System.in);
-	System.out.println("Enter the length of Rectangle:");
-	double length = scan.nextDouble();
-	System.out.println("Enter the width of Rectangle:");
-	double width = scan.nextDouble();
-	//Area = length*width;
+	public static void main(String args[]) {
+	Scanner scanner = new Scanner(System.in);
+	System.out.println("Enter the width of the Triangle:");
+	double base = scanner.nextDouble();
+	System.out.println("Enter the height of the Triangle:");
+	double height = scanner.nextDouble();
+	//Area = (width*height)/2
 
-	double area = length*width;
+	double area = (base* height)/2;
 
-	System.out.println("Area of Rectangle is:"+area);
+	System.out.println("Area of Triangle is: " + area);
 	}
 }
