@@ -15,6 +15,6 @@ public class FindAreaOfRectangle {
 	double area = length*width;
 
 	System.out.println("Area of Rectangle is:"+area);
-	scan.close();
+	
 	}
 }
