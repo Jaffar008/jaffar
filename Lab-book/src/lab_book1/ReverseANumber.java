@@ -1,7 +1,5 @@
 package lab_book1;
-
 import java.util.Scanner;
-
 public class ReverseANumber {
 	public static void main(String args[])
 	{
@@ -24,5 +22,7 @@ public class ReverseANumber {
 	num = num/10;
 	}
 	System.out.println("Reverse of input number is: "+reversenum);
+	in.close();
 	}
+	
 }
