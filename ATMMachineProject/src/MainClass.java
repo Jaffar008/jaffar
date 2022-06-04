@@ -41,22 +41,24 @@ public class MainClass {
 					
 					op.viewMiniStatement();
 					System.out.println(" ");
-				   	System.out.println("Enter 1 to print");
+				   	System.out.println("Enter 1 to print and end");
 				   	int p=sc.nextInt();
-				   	switch(p=1) {
+				   	if(p==1) {
 				   		//String n=op.viewMiniStatement();
-				   	case 1:
 				   		try {
 							PrintStream ps= new PrintStream(new File("D:\\Mini statement\\Ministatement2.txt"));
 							System.setOut(ps);
-							ps.print(op.viewMiniStatement());
+							ps.print(op.viewMiniStatement());					
+							System.out.println("\nThanks for using ATM\n collect your ATM card");
 							System.exit(p);
-							
 							}
 						catch(FileNotFoundException ft) {
 							System.out.println(ft);
 						}
 				   	
+				   	}
+				   	else {
+				   		continue;
 				   	}
 				}
 				else if(ch==5) {
